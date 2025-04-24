@@ -1,0 +1,15 @@
+User Story: As a Revenue Authority I will be able to create tax stamp so that I can manage tax stamp for excise products in the system.
+Acceptance Criteria:
+User should be able access tax stamp by clicking Tax → Tax Stamp
+User on clicking “Add New Tax Stamp”, user should be able to capture below details
+
+Following options should be available,
+Add Tax Stamp →
+Tax Stamp should be created and linked with the respective product type, category, necessary in the system
+The system should display the successful toaster message and user should be redirected to the list screen
+Added Tax Stamp should be listed in the listing screen USPDTSMS-253: Revenue Authority | Tax Stamp Management | View Tax Stamp List and Status
+Cancel → System should cancel the operation and user should be redirected to the list screen
+System should handle the following validations,
+If mandatory fields are not filled, the system should throw the error message as “This field is required” at field level and should not allow user to save the information
+If user tries to save the duplicate tax stamp name, an error message should show as “Tax Stamp name already exists. Please try a different name”
+Based on access privilege's, the logged in user should have permission
